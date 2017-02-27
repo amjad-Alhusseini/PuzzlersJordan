@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <resources>
-	<style name="splashscreen" parent="Theme.AppCompat.Light.NoActionBar">
+	<style name="splashscreen" parent="MyTheme.Base">
 		<item name="android:windowBackground">@drawable/splash_screen</item>
 		<item name="android:windowNoTitle">true</item>
 		<item name="android:windowIsTranslucent">false</item>
 		<item name="android:windowIsFloating">false</item>
 		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:colorPrimaryDark">#85A42C</item>
 	</style>
 	<style name="MyTheme" parent="MyTheme.Base">
 	</style>
@@ -19,7 +20,7 @@
 		<!-- colorPrimary is used for the default action bar background -->
 		<item name="colorPrimary">#2196F3</item>
 		<!-- colorPrimaryDark is used for the status bar -->
-		<item name="colorPrimaryDark">#1976D2</item>
+		<item name="colorPrimaryDark">#85A42C</item>
 		<!-- colorAccent is used as the default value for colorControlActivated
          which is used to tint widgets -->
 		<item name="colorAccent">#FF4081</item>
