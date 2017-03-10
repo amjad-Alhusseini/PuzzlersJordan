@@ -16,6 +16,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <AndroidTlsProvider></AndroidTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -116,6 +117,30 @@
     <AndroidResource Include="Resources\drawable-xxxhdpi\splash_logo.png" />
     <AndroidResource Include="Resources\drawable-mdpi\splash_logo.png" />
     <AndroidResource Include="Resources\drawable-ldpi\splash_logo.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Facebook_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Twitter_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Youtube_icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-ldpi\Youtube_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-xhdpi\Youtube_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxxhdpi\Youtube_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-xxhdpi\Youtube_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Phone_icon.png" />
+    <AndroidResource Include="Resources\drawable-mdpi\Youtube_icon.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable-xxxhdpi\" />

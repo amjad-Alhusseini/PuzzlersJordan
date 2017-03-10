@@ -4,8 +4,12 @@
 		<!-- Application resource dictionary -->
 		<ResourceDictionary>
 			<Style TargetType="NavigationPage">
-				<Setter Property="BarBackgroundColor" Value="#A7CD38" />
+				<Setter Property="BarBackgroundColor" Value="#a9d300" />
 				<Setter Property="BarTextColor" Value="#394123" />
+			</Style>
+			<Style TargetType="Button">
+				<Setter Property="BackgroundColor" Value="#a9d300" />
+				<Setter Property="TextColor" Value="White" />
 			</Style>
 		</ResourceDictionary>
 	</Application.Resources>
