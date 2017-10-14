@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PuzzlersJordan.ContactUsPage" Title="Contact us">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:PuzzlersJordan.CustomControls;assembly=PuzzlersJordan" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PuzzlersJordan.ContactUsPage" Title="Contact us">
 	<ContentPage.Content>
 		<ScrollView>
 			<StackLayout Orientation="Vertical" Padding="20" Spacing="10">
@@ -19,7 +19,7 @@
 					</Label>
 					<BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
 				</StackLayout>
-				<Label Text="Name">
+				<Label Text="Name" x:Name="NameLabel" >
 				</Label>
 				<Entry Placeholder="John Smith">
 				</Entry>
@@ -33,8 +33,10 @@
 				</Entry>
 				<Label Text="Message">
 				</Label>
-				<Editor HeightRequest="90">
-				</Editor>
+                <Editor HeightRequest="90">
+                </Editor>
+                <local:MyEditor HeightRequest="90">
+                </local:MyEditor>
 				<Button HorizontalOptions="FillAndExpand" Text="Send">
 				</Button>
 			</StackLayout>

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using PuzzlersJordan.Common;
 using Xamarin.Forms;
 
 namespace PuzzlersJordan
@@ -10,19 +10,20 @@ namespace PuzzlersJordan
 		public ContactUsPage()
 		{
 			InitializeComponent();
+
 		}
 
 		public void facebook_clicked(object sender, EventArgs e)
 		{
-			Device.OpenUri(new Uri("https://www.facebook.com/PuzzlersJordan"));
+            Device.OpenUri(new Uri(Constants.FacebookUrl));
 		}
 		public void youtube_clicked(object sender, EventArgs e)
 		{
-			Device.OpenUri(new Uri("https://www.youtube.com/user/puzzlersjo"));
+            Device.OpenUri(new Uri(Constants.YoutubeUrl));
 		}
 		public void twitter_clicked(object sender, EventArgs e)
 		{
-			Device.OpenUri(new Uri("https://twitter.com/Puzzlersjordan"));
+            Device.OpenUri(new Uri(Constants.TwitterUrl));
 		}
 		public void phone_clicked(object sender, EventArgs e)
 		{
