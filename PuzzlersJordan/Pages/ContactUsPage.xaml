@@ -1,45 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:local="clr-namespace:PuzzlersJordan.CustomControls;assembly=PuzzlersJordan" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PuzzlersJordan.ContactUsPage" Title="Contact us">
-	<ContentPage.Content>
-		<ScrollView>
-			<StackLayout Orientation="Vertical" Padding="20" Spacing="10">
-				<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
-					<Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#3b5998" Clicked="facebook_clicked" Image="Facebook_icon">
-					</Button>
-					<Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#1da1f2" Clicked="twitter_clicked" Image="Twitter_icon">
-					</Button>
-					<Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#cd201f" Clicked="youtube_clicked" Image="Youtube_icon">
-					</Button>
-					<Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="Gray" Clicked="phone_clicked" Image="Phone_icon">
-					</Button>
-				</StackLayout>
-				<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
-					<BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
-					<Label Text="Or">
-					</Label>
-					<BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
-				</StackLayout>
-				<Label Text="Name" x:Name="NameLabel" >
-				</Label>
-				<Entry Placeholder="John Smith">
-				</Entry>
-				<Label Text="Email">
-				</Label>
-				<Entry Placeholder="email@domain.com" Keyboard="Email">
-				</Entry>
-				<Label Text="Phone">
-				</Label>
-				<Entry Placeholder="(123) 456-7890" Keyboard="Telephone">
-				</Entry>
-				<Label Text="Message">
-				</Label>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Padding="20" Spacing="10">
+                <!--Social Media section-->
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Spacing="10">
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#3b5998" Clicked="facebook_clicked" Image="Facebook_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#1da1f2" Clicked="twitter_clicked" Image="Twitter_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="#cd201f" Clicked="youtube_clicked" Image="Youtube_icon">
+                    </Button>
+                    <Button BorderRadius="25" HeightRequest="50" WidthRequest="50" BackgroundColor="Gray" Clicked="phone_clicked" Image="Phone_icon">
+                    </Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                    <Label Text="Or">
+                    </Label>
+                    <BoxView HeightRequest="0.5" VerticalOptions="CenterAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Black" />
+                </StackLayout>
+                <!--Contact us section-->
+                <Label Text="Name" x:Name="NameLabel">
+                </Label>
+                <Entry Placeholder="John Smith">
+                </Entry>
+                <Label Text="Email">
+                </Label>
+                <Entry Placeholder="email@domain.com" Keyboard="Email">
+                </Entry>
+                <Label Text="Phone">
+                </Label>
+                <Entry Placeholder="(123) 456-7890" Keyboard="Telephone">
+                </Entry>
+                <Label Text="Message">
+                </Label>
                 <Editor HeightRequest="90">
                 </Editor>
                 <local:MyEditor HeightRequest="90">
                 </local:MyEditor>
-				<Button HorizontalOptions="FillAndExpand" Text="Send">
-				</Button>
-			</StackLayout>
-		</ScrollView>
-	</ContentPage.Content>
+                <Button HorizontalOptions="FillAndExpand" Text="Send">
+                </Button>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
 </ContentPage>
