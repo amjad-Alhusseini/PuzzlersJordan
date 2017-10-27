@@ -35,8 +35,6 @@
                 </Entry>
                 <Label Text="Message">
                 </Label>
-                <Editor HeightRequest="90">
-                </Editor>
                 <local:MyEditor HeightRequest="90">
                 </local:MyEditor>
                 <Button HorizontalOptions="FillAndExpand" Text="Send">
