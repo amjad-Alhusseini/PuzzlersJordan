@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+  <shopify-storefront-url>YourStoreFrontUrlHere</shopify-storefront-url>
+  <shopify-access-token>YourAccessToeknHere</shopify-access-token>
+</config>
